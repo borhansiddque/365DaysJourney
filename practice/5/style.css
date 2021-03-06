@@ -1,0 +1,23 @@
+.first h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+.first p {
+    margin-left: 300px;
+    margin-right: 300px;
+    color: #666;
+    font-size: 20px;
+    background-color: lightblue;
+    padding: 40px;
+    border-radius: ;
+}
