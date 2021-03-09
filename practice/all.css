@@ -25,21 +25,20 @@ img {
 }
 
 /* website table */
-table{
+.table-1 table{
     text-transform: capitalize;
     text-align: center;
-    border: 2px solid #ff0000;
     margin-top: 20px;
 }
-table th {
+.table-1 table th {
     background: #000;
     color: #fff;
 }
-table td {
+.table-1 table td {
     padding: 25px;
     border: 1px solid #444;
 }
-table img {
+.table-1 table img {
     width: 100px;
     height: 10ppx;
 }
@@ -78,20 +77,30 @@ input[type="submit"] {
     text-align: left;
 }
 
+/* customers table style */
 
+#customers {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
 
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+#customers tr:hover {
+    background-color: #999;
+}
+#customers th {
+    background-color: pink;
+    text-align: left;
+    padding: 12px 0;
+}
 
 
 
@@ -107,4 +116,8 @@ footer{
     color: #fff;
     padding: 15px 0;
     text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: tomato;
 }
