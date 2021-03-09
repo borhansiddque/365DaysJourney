@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -60,16 +61,23 @@ input[type="submit"] {
     border: 1px solid #000;
     border-radius: 3px;
 }
+
 .anchor{
     margin: 19px 0 55px 0;
 }
+
 .anchor a{
     text-decoration: none;
     background-color: #999;
     color: #000;
     padding: 10px;
-    margin: 10px 10px;
+    margin-right: 15px;
 }
+.anchor a:nth-child(6){
+    margin-right: 0;
+
+}
+
 .anchor h1{
     text-transform: lowercase;
     background-color: #fff;
@@ -80,9 +88,10 @@ input[type="submit"] {
 /* customers table style */
 
 #customers {
-    width: 100%;
+    width: 80%;
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
+    margin-left: 25px;
 }
 
 #customers td, #customers th {
@@ -101,6 +110,50 @@ input[type="submit"] {
     text-align: left;
     padding: 12px 0;
 }
+
+/* Text Formatting Properties */
+.text p{
+    width: 400px;
+    padding: 30px;
+    margin-left: 20px;
+    border: 2px solid #000;
+    background: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* Text Formatting Properties */
+    text-align: justify;
+    text-align-last: center;
+    text-indent: 50px;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+}
+
+
+/* text-decoration */
+.text-deco h2 {
+    text-decoration: underline #f00 wavy;
+}
+.text-deco p{
+    width: 400px;
+    padding: 25px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #000;
+    background: none;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
