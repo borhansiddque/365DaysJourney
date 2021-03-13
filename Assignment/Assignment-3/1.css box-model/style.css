@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box {
+    width: 250px;
+    height: 250px;
+    background: #dc143c;
+    margin: 50px 0 0 100px;
+    padding: 50px;
+    border: 10px solid #000;
+    outline: 15px solid #a7594b;
+}
+
+.box h3 {
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
