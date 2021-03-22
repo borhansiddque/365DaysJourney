@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    background: #efefef;
+    color: #222222;
+    font-size: 16px;
+}
+
+.wrap {
+    width: 80%;
+    min-height: 500px;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.box {
+    height: 100px;
+    min-width: 100px;
+}
+
+.one {
+    background: salmon;
+
+}
+
+
+.two {
+    background: palegreen;
+
+}
+
+.three {
+    background: skyblue;
+
+}
+
+.four {
+    background: fuchsia;
+
+}
