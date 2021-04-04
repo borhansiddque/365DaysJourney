@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Test Website</title>
+    <style>
+        .main-nav {
+            background: #000;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+        }
+        .main-nav .menu {
+            width: 80%;
+        }
+        .menu-item li{
+            display: inline-block;
+            padding: 10px;
+        }
+        .menu-item li a{
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
+    <nav class="main-nav">
+        <div class="menu">
+            <ul class="menu-item">
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="about.html" target="_blank">About Us</a></li>
+                <li><a href="blog.html" target="_blank">Blogs</a></li>
+            </ul>
+        </div>
+    </nav>
     <!-- this is comment -->
 
     <h1>heading 1</h1>
