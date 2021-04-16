@@ -1,0 +1,161 @@
+/* Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+
+/* Google fonts end*/
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+    background: #efefef;
+}
+
+/* Container */
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+    /* background-color:#fff; */
+}
+
+/* Navbar Design Start */
+
+nav {
+    width: 100%;
+    height: 65px;
+    background: #1c2845;
+    color: #fff;
+}
+
+.nav-container {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.brand .brand-name {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-item-container {
+    margin-left: auto;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 24px;
+}
+
+/* TODO: set individual link style later on */
+.nav-item a,
+.nav-item a:visited,
+.nav-item a:link,
+.nav-item a:active {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Navbar Design End */
+
+
+/* Profile card design start */
+
+.profile-card-container {
+    width: 100%;
+    height: 320px;
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.profile-picture-container {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-square-container {
+    width: 270px;
+    height: 270px;
+    border: 5px solid #1c2845;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-circle-container{
+    width: 230px;
+    height: 230px;
+    border: 5px solid #1c2845;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.image-circle-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.profile-info-container {
+    width: 695px;
+}
+
+
+
+
+
+/* Profile card design end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
