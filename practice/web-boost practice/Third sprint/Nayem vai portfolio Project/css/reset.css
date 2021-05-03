@@ -18,25 +18,41 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
+/* Make images easier to work with */
+img {
+    max-width: 100%;
+    display: block;
+}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
