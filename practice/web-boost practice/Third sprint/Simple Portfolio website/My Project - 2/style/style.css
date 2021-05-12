@@ -1,0 +1,422 @@
+/* Google Fonts link here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    background: #efefef;
+    font-family: 'Roboto', sans-serif;
+}
+
+::selection {
+    background: #ffff00;
+}
+
+/* anchor tag style here */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* heading tag style here */
+h2 {
+    font-size: 28px;
+    color: #333;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #333;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #444444;
+    font-weight: 600;
+}
+
+/* container class style here */
+.container {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+/* Navbar Section Style Start Here  */
+
+nav.navbar {
+    width: 100%;
+    height: 90px;
+    background: #4B4B4B;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 27px;
+}
+
+.brand-name h1 a{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-items {
+    display: flex;
+}
+
+.navbar-items li {
+    margin-left: 40px;
+}
+
+.navbar-items li:first-child {
+    margin-left: 0;
+}
+
+.navbar-items li a {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+    transition: .3s;
+}
+
+.navbar-items li a:hover {
+    color: #dadada;
+}
+
+/* Navbar Section Style End Here  */
+
+
+/* About Section Style Start Here */
+
+section.about-section {
+    margin: 45px 0;
+}
+
+.about-container {
+    width: 100%;
+    height: 270px;
+    background: #fff;
+    padding: 35px;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.profile-picture {
+    margin-right: 70px;
+}
+
+.profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+}
+
+.profile-info h2 {
+    margin-bottom: 8px;
+}
+
+.profile-info h3 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #555555;
+}
+
+.profile-info p {
+    color: #666;
+    margin-bottom: 10px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+/* About Section Style End Here */
+
+
+
+/* Skill Section Style Start Here */
+
+section.skill-section {
+    margin: 45px 0;
+}
+
+.skill-container {
+    width: 100%;
+    height: 345px;
+    background: #fff;
+    padding: 35px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: 480px 480px;
+    grid-template-rows: 130px 130px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 25px;
+}
+
+.skill-item {
+    padding: 10px;
+}
+
+.skill-item h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.skill-item h4 {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.skill-item p {
+    font-size: 15px;
+    font-weight: 300;
+    /* text-transform: capitalize; */
+    line-height: 1.2;
+    color: #666;
+}
+
+/* Skill Section Style End Here */
+
+
+
+/* Portfolio Section Style Start Here */
+
+section.portfolio-section {
+    margin: 45px 0;
+}
+
+.portfolio-container {
+    width: 100%;
+    height: 370px;
+    background: #fff;
+    padding: 35px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    column-gap: 18px;
+}
+
+.portfolio-item {
+    width: 310px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.portfolio-img img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.portfolio-text {
+    padding: 8px;
+}
+
+.portfolio-text h3 {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.portfolio-text h4 {
+    font-size: 18px;
+    color: #555;
+}
+
+.portfolio-text p {
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 5px;
+    color: #666666;
+    line-height: 1.2;
+}
+
+
+
+
+
+
+
+/* Portfolio Section Style End Here */
+
+
+
+/* Contact Section Style Start Here */
+
+section.contact-section {
+    margin-bottom: 45px;
+}
+
+.contact-container {
+    width: 100%;
+    height: 465px;
+    background: #fff;
+    padding: 35px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.input-items {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-items .name,
+.input-items .email,
+.input-items .password {
+    padding: 18px 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-items .massage-box {
+    resize: none;
+    padding: 9px 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 18px;
+}
+
+input[type=submit] {
+    width: 100px;
+    margin-top: 10px;
+    padding: 12px 0;
+    background: #4B4B4B;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Contact Section Style End Here */
+
+
+
+/* Footer Section Style Start Here */
+
+footer.footer-section {
+    background: #4B4B4B;
+    padding: 33px 0;
+}
+
+.footer-section h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.footer-section h3 a {
+    color: #fff;
+    transition: .3s;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.footer-section h3 a:hover {
+    color: #ffff00;
+    text-decoration: none;
+}
+
+
+
+
+/* Footer Section Style End Here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
